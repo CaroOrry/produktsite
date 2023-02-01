@@ -1,0 +1,36 @@
+.mainnav h1 {
+  margin-right: auto;
+}
+
+.mainnav {
+  margin: 0;
+}
+
+nav {
+  margin-right: 4rem;
+}
+
+@media (min-width: 700px) {
+  .mainnav {
+    display: flex;
+    align-items: center;
+  }
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: -0.15rem;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.productlist main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
+  gap: 2rem;
+}
+
+.productlist article {
+  display: flex;
+  flex-direction: column;
+}
